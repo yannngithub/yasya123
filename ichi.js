@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Made By Fandyyy 🕴️
  * Subscribe FBOTZ YT
  * Follow https://instagram.com/_nzrlafndi
@@ -1085,7 +1085,7 @@ https://paypal.me/alvianto17\n
 https://saweria.co/alvianto17\n`;
         qris = fs.readFileSync(`./media/qr.jpg`);
         for (let yoi of bcdonategroup) {
-          await ichi.sendMessage(yoi, { caption: donate, image: qris });
+          ichi.sendMessage(yoi, { caption: donate, image: qris });
         }
         m.reply(`Sukses Broadcast ke ${bcdonategroup.length} Chat`);
         break;
@@ -1113,7 +1113,7 @@ https://paypal.me/alvianto17\n
 https://saweria.co/alvianto17\n`;
         qris = fs.readFileSync(`./media/qr.jpg`);
         for (let yoi of bcdonate) {
-          await ichi.sendMessage(yoi, { caption: donate, image: qris });
+          ichi.sendMessage(yoi, { caption: donate, image: qris });
         }
         m.reply(`Sukses Broadcast ke ${anu.length} Chat`);
         break;
